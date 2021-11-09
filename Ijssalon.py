@@ -1,5 +1,6 @@
 #Alexander den Otter   -   99067410
 import sys
+
 BakjeOfHoorntje = "bakje"
 Aantal_Bolletjes = 0
 Bolletje = 1
@@ -41,11 +42,6 @@ def SmaakBolletjes(Aantal_Bolletjes,Bolletje,Aardbei,Chocolade,Munt,Vanille):
 
     print('Oke, u heeft dus de smaken:\n--------------\n'+str(Aardbei)+'x Aardbei\n'+str(Chocolade)+'x Chocolade\n'+str(Munt)+'x Munt\n'+str(Vanille)+'x Vanille\n--------------')
     Keuzes(Aantal_Bolletjes)
-
-   
-
-
-
 
 def Keuzes(Aantal_Bolletjes):
     if Aantal_Bolletjes <= 3:
